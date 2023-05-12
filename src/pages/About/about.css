@@ -1,0 +1,26 @@
+.about {
+
+}
+.about .banner {
+    background-image: url("../../assets/photo-1629079447777-1e605162dc8d.jpeg");
+    height: 500px;
+}
+.about .col {
+    padding: 25px 3%;
+    display: flex;
+}
+.about .col .row:first-child {
+    width: 60%;
+    line-height: 30px;
+    padding: 0 100px ;
+}
+.about .col .row:last-child {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.about .col .row:last-child img {
+    width: 60%;
+    border-radius: 50%;
+    height: fit-content;
+}
